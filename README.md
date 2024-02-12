@@ -1,6 +1,9 @@
 # Evolution of Gene Family ABI
-In collaboration with the Stoffwechselbiochemie Haass Lab of Ludwig-Maximilians-Universität-München
+**In collaboration with the Stoffwechselbiochemie Haass Lab of Ludwig-Maximilians-Universität-München**
 
+---
+
+In order to obtain an initial protein dataset:
 ```
 ../interproscan-5.65-97.0/interproscan.sh -i UniProt_ABI.raw.fa -f tsv -b ABI.tsv
 
