@@ -49,8 +49,9 @@ In order to obtain an initial protein dataset, all proteins downloaded were filt
 
 sed 's/\s.*$//' UniProt_ABI.raw.fa > Uniprot_ABI.reformat.raw.fa
 
-grep "SH3" ABI.tsv | awk '{print $1}' | sort -u > True_ABI.txt
-grep "ABL" ABI.tsv | awk '{print $1}' | sort -u >> True_ABI.txt
+grep "SH3" ABI.tsv | awk '{print $1}' | sort -u > True_ABI_raw.txt
+grep "ABL" ABI.tsv | awk '{print $1}' | sort -u >> True_ABI_raw.txt
+sort -u True_ABI_raw.txt > True_ABI.txt
 
 bash Interpro.filter.sh Uniprot_ABI.reformat.raw.fa True_ABI.txt
 ```
