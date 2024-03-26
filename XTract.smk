@@ -11,18 +11,18 @@ rule all:
 	input:
 		expand('miniprot_gff/{sample}.gff', sample = sample),
 		expand('agat_cds/{sample}.cds.fna', sample = sample),
-		expand('augustus/{sample}.augustus.gff', sample = sample),
-		expand('augustus/{sample}.augustus.aa', sample = sample),
-		expand('augustus/{sample}.augustus.codingseq', sample = sample),
-		expand('interproscan/{sample}.augustus.aa.tsv', sample = sample),
+#		expand('augustus/{sample}.augustus.gff', sample = sample),
+#		expand('augustus/{sample}.augustus.aa', sample = sample),
+#		expand('augustus/{sample}.augustus.codingseq', sample = sample),
+#		expand('interproscan/{sample}.augustus.aa.tsv', sample = sample),
 #		expand('Genes/{sample}.fa', sample = sample),
-		expand('Genes/{sample}.truep450.txt', sample = sample),
-		'logs/augustus_statistics.log',
+#		expand('Genes/{sample}.trueABI.txt', sample = sample),
+#		'logs/augustus_statistics.log',
 
 rule miniprot:
         input:
                 genome = 'Genomes/{sample}.fna',
-                proteins = 'refNCBI/UniProt_P450_Reviewed_Insecta.fasta'
+                proteins = 'Proteins/UniRef90_Metazoa_ABI.fa'
         threads:
                 config['Run']['Threads']
         output:
@@ -45,7 +45,7 @@ rule augustus:
         output:
                 'augustus/{sample}.augustus.gff'
         shell:
-                'augustus --species=fly --protein=on --codingseq=on --genemodel=complete {input.protein_coordinates} > {output}'
+                'augustus --protein=on --codingseq=on --genemodel=complete {input.protein_coordinates} > {output}'
 
 rule augustus_statistics:
         input:
@@ -95,14 +95,14 @@ rule interpro_filter1:
 	input:
 		interpro = 'interproscan/{sample}.augustus.aa.tsv'
 	output:
-		trueP450 = 'Genes/{sample}.truep450.txt'
+		trueABI = 'Genes/{sample}.trueABI.txt'
 	shell:
 		'''
 		for file in {input.interpro}; do
 			if [ -e "$file" ]; then
 
 				result=$(awk '/P450/ {{print $1}}' "$file" | sort -u)
-				echo -e "$result" > {output.trueP450}
+				echo -e "$result" > {output.trueABI}
 
 			fi
 		done		
@@ -113,7 +113,7 @@ rule interpro_filter1:
 #	input:
 #		augustus_aa = expand('augustus/{sample}.augustus.aa', sample = sample)
 #	output:
-#		'p450.combined.fa'
+#		'ABI.combined.fa'
 #	shell:
 #		'''
 #		for file in {input.augustus_aa}; do
