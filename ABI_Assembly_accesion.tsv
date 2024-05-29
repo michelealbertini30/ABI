@@ -1,4 +1,4 @@
-Assembly Accession	Organism Name	Species ID	Assembly Level	Taxonomy (Phylum)	Taxonomy (Sub)
+#Assembly Accession	Organism Name	Species ID	Assembly Level	Taxonomy (Phylum)	Taxonomy (Sub)
 GCA_963281255.1	Aphrocallistes beatrix	Abea	Chromosome	Porifera	Hexactinellida
 GCA_949841015.1	Aplysina aerophoba	Aaer	Chromosome	Porifera	Demospongiae
 GCA_963930775.1	Cliona orientalis	Cori	Chromosome	Porifera	Demospongiae
@@ -139,3 +139,4 @@ GCF_020826845.1	Diceros bicornis	Dbic	Chromosome	Vertebrata	Mammalia
 GCF_020740605.2	Lemur catta	Lcat	Chromosome	Vertebrata	Mammalia
 GCF_028885625.2	Pongo pygmaeus	Ppyg	Compelte genome	Vertebrata	Mammalia
 GCF_000001405.40	Homo sapiens	Hsap	Chromosome	Vertebrata	Mammalia
+GCF_000150275.1	Trichoplax adherens Tadh Scaffold	Placozoa	Placozoa
