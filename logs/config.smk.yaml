@@ -4,3 +4,6 @@ Run:
 
 Scripts:
   getAnnoFasta: "/DATABIG/michelealbertini/ABI/Scripts/getAnnoFasta.pl"
+
+Files:
+  Blast_Database: "/DATABIG/michelealbertini/ABI/rBLASTp/ABI.all_proteins.db"

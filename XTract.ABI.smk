@@ -1,6 +1,6 @@
 configfile: 'logs/config.smk.yaml'
 exp=config['Run']['Expansion']
-
+blast_db=config['Files']['Blast_Database']
 getAnnoFasta=config['Scripts']['getAnnoFasta']
 
 sample = glob_wildcards('Genomes/{sample}.fna')[0]
@@ -16,13 +16,13 @@ rule all:
 		expand('augustus/{sample}.augustus.codingseq', sample = sample),
 		expand('interproscan/tsv/{sample}.augustus.aa.tsv', sample = sample),
 #		expand('interproscan/gff/{sample}.augustus.aa.gff3', sample = sample),
-#		expand('Genes/{sample}.filtered.fa', sample = sample),
+		expand('Genes/{sample}.filtered.fa', sample = sample),
 		expand('Genes/{sample}.trueABI.txt', sample = sample),
-#		expand('Genes/{sample}.filtered.reformat.fa', sample = sample),
-#		expand('Genes/{sample}.cdhit.fa', sample = sample),
+		expand('Genes/{sample}.filtered.reformat.fa', sample = sample),
+		expand('Genes/{sample}.cdhit.fa', sample = sample),
 #		expand('Mafft/{sample}.mafft.fa', sample = sample),
-#		'logs/augustus_statistics.log'
-				
+		expand('rBLASTp/results/{sample}.rblastp.txt', sample = sample)
+
 
 rule miniprot:
         input:
@@ -51,28 +51,6 @@ rule augustus:
                 'augustus/{sample}.augustus.gff'
         shell:
                 'augustus --species=metazoa --protein=on --codingseq=on --genemodel=complete {input.fasta} > {output}'
-
-rule augustus_statistics:
-        input:
-                augustus_hits = expand('augustus/{sample}.augustus.gff', sample = sample)
-        output:
-                'logs/augustus_statistics.log'
-	shell:
-		'''
-		echo -e "File\t\tN.hits\t\tUnique" > {output}
-
-		for file in {input.augustus_hits}; do
-			if [ -e "$file" ]; then
-				filename=$(basename "$file" .augustus.gff)
-
-				result1=$(grep -c "start gene" "$file")
-				result2=$(grep -A 1 "start gene" "$file" | awk '/MP/ {{print $1}}' | sort -u | wc -l)
-
-				echo -e "$filename\t\t$result1\t\t$result2" >> {output}
-			fi
-		done
-
-		'''
 
 rule augustus_extract:
 	input:
@@ -163,3 +141,11 @@ rule mafft:
 		aligned = 'Mafft/{sample}.mafft.fa'
 	shell:
 		'mafft {input.genes} > {output.aligned}'
+
+rule reverse_blast:
+	input:
+		genes = 'Genes/{sample}.cdhit.fa'
+	output:
+		blast = 'rBLASTp/results/{sample}.rblastp.txt'
+	shell:
+		'blastp -query {input.genes} -db {blast_db} -outfmt 6 -out {output.blast}'
