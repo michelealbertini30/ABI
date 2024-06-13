@@ -6,5 +6,6 @@ for i in *.txt; do
 	awk '{print $1}' "$i" | sort -u | while read line; do
 	grep "$line" "$i" | head -n1 >> "$output_file"
 	done
+	echo "Processed $output_file :)"
 done
 

@@ -11,8 +11,8 @@ while IFS=$'\t' read -r protein right_protein; do
 done < "$names"
 
 # Iterate over each .besthit file in the specified directory
-for file in "$dir"/*besthit; do
-    output_file="${file/.txt.besthit/.abi}"
+for file in "$dir"/*top; do
+    output_file="${file/.top/.ref}"
 
     # Read the .besthit file line by line
     while IFS=$'\t' read -r gene protein rest; do
@@ -25,4 +25,4 @@ for file in "$dir"/*besthit; do
     done < "$file" > "$output_file"
 done
 
-echo "Substitution completed. Check the .abi files for results."
+echo "Substitution completed. Check the $output_file for results."
