@@ -21,8 +21,6 @@ rule all:
 		expand('Genes/{sample}.filtered.reformat.fa', sample = sample),
 		expand('Genes/{sample}.cdhit.fa', sample = sample),
 #		expand('Mafft/{sample}.mafft.fa', sample = sample),
-		expand('rBLASTp/results/{sample}.rblastp.txt', sample = sample)
-
 
 rule miniprot:
         input:
@@ -109,6 +107,7 @@ rule interpro_filter2:
         shell:
                 'bash Scripts/Interpro_filter_smk.sh {input.fasta} {input.txt} {output}'
 
+
 rule reformat_combine:
 	input:
 		genes = 'Genes/{sample}.filtered.fa'
@@ -124,28 +123,11 @@ rule reformat_combine:
                done
 
 		'''
+
 rule cdhit:
-        input:
-                genes = 'Genes/{sample}.filtered.reformat.fa'
-        output:
-                'Genes/{sample}.cdhit.fa'
-        shell:
-                'cd-hit -i {input.genes} -c 1.00 -o {output}'
-
-
-
-rule mafft:
 	input:
-		genes = 'Genes/{sample}.filtered.reformat.fa'
+		'Genes/{sample}.filtered.reformat.fa'
 	output:
-		aligned = 'Mafft/{sample}.mafft.fa'
+		'Genes/{sample}.cdhit.fa'
 	shell:
-		'mafft {input.genes} > {output.aligned}'
-
-rule reverse_blast:
-	input:
-		genes = 'Genes/{sample}.cdhit.fa'
-	output:
-		blast = 'rBLASTp/results/{sample}.rblastp.txt'
-	shell:
-		'blastp -query {input.genes} -db {blast_db} -outfmt 6 -out {output.blast}'
+		'cd-hit -i {input} -c 1.00 -o {output}'

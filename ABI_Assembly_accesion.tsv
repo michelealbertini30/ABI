@@ -1,142 +1,142 @@
-#Assembly Accession	Organism Name	Species ID	Assembly Level	Taxonomy (Phylum)	Taxonomy (Sub)
-GCA_963281255.1	Aphrocallistes beatrix	Abea	Chromosome	Porifera	Hexactinellida
-GCA_949841015.1	Aplysina aerophoba	Aaer	Chromosome	Porifera	Demospongiae
-GCA_963930775.1	Cliona orientalis	Cori	Chromosome	Porifera	Demospongiae
-GCF_963422355.1	Corticium candelabrum	Dcan	Chromosome	Porifera	Homoscleromorpha
-GCA_963678975.1	Dysidea avara	Dava	Chromosome	Porifera	Demospongiae
-GCA_963969325.1	Lycopodina hypogea	Lhyp	Chromosome	Porifera	Demospongiae
-GCA_947507565.1	Oscarella lobularis	Olob	Chromosome	Porifera	Homoscleromorpha
-GCF_000090795.2	Amphimedon queenslandica	Aque	Scaffold	Porifera	Demospongiae
-GCA_963930835.1	Spongia officinalis	Soff	Chromosome	Porifera	Demospongiae
-GCA_949361645.1	Spongilla lacustris	Slac	Chromosome	Porifera	Demospongiae
-GCA_963970385.1	Theonella swinhoei	Tswi	Chromosome	Porifera	Demospongiae
-GCF_013753865.1	Acropora millepora	Amil	Chromosome	Cnidaria	Anthozoa
-GCA_963930725.1	Candelabrum cocksii	Ccoc	Chromosome	Cnidaria	Hydrozoa
-GCA_916610825.1	Haliclystus octoradiatus	Hoct	Chromosome	Cnidaria	Staurozoa
-GCF_022113875.1	Hydra vulgaris	Hvul	Chromosome	Cnidaria	Hydrozoa
-GCF_029227915.1	Hydractinia symbiolongicarpus	Hsym	Chromosome	Cnidaria	Hydrozoa
-GCF_932526225.1	Nematostella vectensis	Nvec	Chromosome	Cnidaria	Anthozoa
-GCA_949710005.1	Ricordea florida	Rflo	Chromosome	Cnidaria	Anthozoa
-GCA_026151205.1	Bolinopsis microptera	Bmic	Chromosome	Ctenophora	Tentaculata
-GCA_020137815.1	Hormiphora californensis	Hcal	Chromosome	Ctenophora	Tentaculata
-GCA_034509925.1	Hirudinaria manillensis	Hman	Chromosome	Annelida	Hirudinea
-GCA_936440205.1	Lepidonotus clava	Lcla	Chromosome	Annelida	Polychaeta
-GCA_943735955.1	Piscicola geometra	Pgeo	Chromosome	Annelida	Hirudinea
-GCA_942159475.1	Sthenelais limicola	Slim	Chromosome	Annelida	Polychaeta
-GCA_019095985.1	Streblospio benedicti	Sben	Chromosome	Annelida	Spionida
-GCA_949152475.1	Terebella lapidaria	Tlap	Chromosome	Annelida	Polychaeta
-GCA_034190875.2	Urechis unicinctus	Uuni	Chromosome	Annelida	Polychaeta
-GCA_026874595.1	Sipunculus nudus	Snud	Chromosome	Annelida	Sipuncula
-GCA_013433145.1	Ascaris suum	Asuu	Chromosome	Nematoda	Chromadorea
-GCF_000002995.4	Brugia malayi	Bmal	Scaffold	Nematoda	Chromadorea
-GCF_000002985.6	Caenorhabditis elegans	Cele	Complete Genome	Nematoda	Chromadorea
-GCA_030553155.1	Nippostrongylus brasiliensis	Nbra	Chromosome	Nematoda	Chromadorea
-GCA_013425905.1	Oscheius tipulae	Otip	Chromosome	Nematoda	Chromadorea
-GCA_000757645.3	Steinernema carpocapsae	Scar	Chromosome	Nematoda	Chromadorea
-GCA_030435675.1	Strongyloides ratti	Srat	Chromosome	Nematoda	Chromadorea
-GCF_001040885.1	Trichinella spiralis	Tspi	Chromosome	Nematoda	Enoplea
-GCF_000237925.1	Schistosoma mansoni	Sman	Chromosome	Platyhelminthes	Trematoda
-GCA_001923025.3	Taenia multiceps	Tmul	Chromosome	Platyhelminthes	Cestoda
-GCF_000002075.1	Aplysia californica	Acal	Scaffold	Mollusca	Gastropoda
-GCF_947242115.1	Chrysomallon squamiferum	Csqu	Chromosome	Mollusca	Gastropoda
-GCA_029237695.1	Doryteuthis pealeii	Dpea	Chromosome	Mollusca	Cephalopoda
-GCF_002022765.2	Fragum whitleyi	Fwhi	Chromosome	Mollusca	Bivalvia
-GCA_936450465.1	Liolophura japonica	Ljap	Chromosome	Mollusca	Polyplacophora
-GCF_016097555.1	Lucinisca nassula	Lnas	Chromosome	Mollusca	Bivalvia
-GCF_026914265.1	Octopus sinensis	Osin	Chromosome	Mollusca	Cephalopoda
-GCF_006345805.1	Panopea generosa	Pgen	Chromosome	Mollusca	Bivalvia
-GCA_963931925.1	Patella vulgata	Pvul	Chromosome	Mollusca	Gastropoda
-GCF_947568905.1	Phorcus lineatus	Plin	Chromosome	Mollusca	Gastropoda
-GCF_932274485.2	Pictodentalium vernedei	Pver	Chromosome	Mollusca	Scaphopoda
-GCF_902652985.1	Pinctada fucata	Pfuc	Chromosome	Mollusca	Bivalvia
-GCA_031216915.1	Rapana venosa	Rven	Chromosome	Mollusca	Gastropoda
-GCA_028751875.1	Sinohyriopsis cumingii	Scum	Chromosome	Mollusca	Bivalvia
-GCA_963585895.1	Siphonodentalium dalli	Sdal	Chromosome	Mollusca	Scaphopoda
-GCA_963457665.1	Thysanoteuthis rhombus	Trho	Chromosome	Mollusca	Cephalopoda
-GCF_902459465.1	Asterias rubens	Arub	Chromosome	Echinodermata	Asteroidea
-GCA_035610835.1	Ophiura sarsii	Osar	Chromosome	Echinodermata	Ophiuroidea
-GCF_000002235.5	Strongylocentrus purpuratus	Spur	Scaffold	Echinodermata	Echinoidea
-GCA_037179385.1	Holothuria scabra	Hsca	Chromosome	Echinodermata	Holothuroidea
-GCA_963402885.1	Antedon bifida	Abif	Chromosome	Echinodermata	Crinoidea
-GCF_024364675.1	Aethina tumida	Atum	Complete Genome	Arthropoda	Coleoptera
-GCA_963082975.1	Lebia minor	Lmin	Chromosome	Arthropoda	Dermaptera
-GCF_000001215.4	Drosophila melanogaster	Dmel	Chromosome	Arthropoda	Diptera
-GCA_949318235.1	Ecdyonurus torrentis	Etor	Chromosome	Arthropoda	Ephemeroptera
-GCF_003254395.2	Apis mellifera	Amel	Chromosome	Arthropoda	Hymenoptera
-GCA_963575645.1	Xanthostigma xanthostigma	Xxan	Chromosome	Arthropoda	Raphidioptera
-GCF_032362555.1	Amyelois transitella	Atra	Complete Genome	Arthropoda	Lepidoptera
-GCA_029203775.1	Neoneuromus ignobilis	Nign	Chromosome	Arthropoda	Megaloptera
-GCF_905475395.1	Chrysoperla carnea	Ccar	Chromosome	Arthropoda	Neuroptera
-GCA_963678705.1	Panorpa germanica	Pger	Chromosome	Arthropoda	Mecoptera
-GCF_921293095.1	Ischnura elegans	Iele	Chromosome	Arthropoda	Odonata
-GCF_023898315.1	Schistocerca nitens	Snit	Chromosome	Arthropoda	Orthoptera
-GCA_921293315.2	Nemurella pictetii	Npic	Chromosome	Arthropoda	Plecoptera
-GCF_032445375.1	Bacillus rossius	Bros	Chromosome	Arthropoda	Phasmatodea
-GCA_023512825.1	Liposcelis brunnea	Lbru	Chromosome	Arthropoda	Psocoptera
-GCF_005508785.2	Acyrthosiphon pisum	Apis	Chromosome	Arthropoda	Hemiptera
-GCA_033675135.1	Frankliniella intonsa	Fint	Chromosome	Arthropoda	Thysanoptera
-GCA_917563855.2	Limnephilus lunatus	Llun	Chromosome	Arthropoda	Trichoptera
-GCA_028476895.1	Tetranychus truncatus	Ttru	Complete genome	Chelicerata	Acariformes
-GCA_963920705.1	Odiellus spinosus	Ospi	Chromosome	Chelicerata	Opiliones
-GCA_030710605.1	Cordylochernes scorpioides	Csco	Chromosome	Chelicerata	Pseudoscorpiones
-GCF_947563725.1	Argiope bruennichi	Abru	Chromosome	Chelicerata	Araneae
-GCA_949358305.1	Strigamia acuminata	Sacu	Chromosome	Myriapoda	Myriapoda
-GCF_021134715.1	Daphnia pulex	Dpul	Chromosome	Crustacea	Branchiopoda
-GCA_030386875.1	Morinoia aosen	Maos	Chromosome	Crustacea	Malacostraca
-GCF_015228065.2	Penaeus monodon	Pmon	Chromosome	Crustacea	Malacostraca
-GCF_000003605.2	Saccoglossus kowalevskii	Skow	Scaffold	Chordata	Hemichordata
-GCF_000003815.2	Branchiostoma floridae	Bflo	Chromosome	Chordata	Cephalochordata
-GCA_963675345.1	Trididemnum clinides	Tcli	Chromosome	Chordata	Tunicata
-GCF_000224145.3	Ciona intestinalis	Cint	Chromosome	Chordata	Tunicata
-GCA_947623445.1	Clavelina lepadiformis	Clep	Chromosome	Chordata	Tunicata
-GCF_010993605.1	Petromyzon marinus	Pmar	Chromosome	Chordata	Cyclostomata
-GCF_015708825.1	Lethenteron reissneri	Lrei	Chromosome	Chordata	Cyclostomata
-GCF_017639515.1	Charcharodon charcharias	Ccha	Chromosome	Vertebrata	Chondrichthyes
-GCF_021869965.1	Rhincodon typus	Rtyp	Chromosome	Vertebrata	Chondrichthyes
-GCF_020745735.1	Hemiscyllium ocellatum	Hoce	Chromosome	Vertebrata	Chondrichthyes
-GCF_009764475.1	Pristis pectinaria	Ppec	Chromosome	Vertebrata	Chondrichthyes
-GCF_963921235.1	Mobula hypostoma	Mhyp	Chromosome	Vertebrata	Chondrichthyes
-GCA_035084275.1	Hydrolagus colliei	Hcol	Chromosome	Vertebrata	Chondrichthyes
-GCF_902713425.1	Acipenser ruthenus	Arut	Chromosome	Vertebrata	Osteichtyes
-GCF_013347855.1	Anguilla anguilla	Aang	Chromosome	Vertebrata	Osteichtyes
-GCF_023856365.1	Brienomyrus brachyistius	Bbra	Chromosome	Vertebrata	Osteichtyes
-GCF_023724105.1	Carassius gibelio	Cgib	Complete genome	Vertebrata	Osteichtyes
-GCF_022458985.1	Mugil cephalus	Mcep	Complete genome	Vertebrata	Osteichtyes
-GCF_000002035.6	Danio rerio	Drer	Chromosome	Vertebrata	Osteichtyes
-GCF_000004195.4	Xenopus tropicalis	Xtro	Chromosome	Vertebrata	Amphibia
-GCF_036172605.1	Pelobates fuscus	Pfus	Chromosome	Vertebrata	Amphibia
-GCF_027358695.1	Spea bombifrons	Sbom	Chromosome	Vertebrata	Amphibia
-GCA_026652325.1	Pleurodeles waltl	Pwal	Chromosome	Vertebrata	Amphibia
-GCA_002915635.3	Ambystoma mexicanum	Amex	Chromosome	Vertebrata	Amphibia
-GCF_902459505.1	Geotrypetes seraphini	Gser	Chromosome	Vertebrata	Amphibia
-GCF_015237465.2	Chelonia mydas	Cmyd	Chromosome	Vertebrata	Reptilia
-GCF_007399415.2	Gopherus evgoodei	Gevg	Chromosome	Vertebrata	Reptilia
-GCF_030867095.1	Alligator mississipiensis	Amis	Chromosome	Vertebrata	Reptilia
-GCF_004329235.1	Podarcis muralis	Pmur	Chromosome	Vertebrata	Reptilia
-GCF_023053635.1	Elgaria multicarinata	Emul	Chromosome	Vertebrata	Reptilia
-GCF_035149785.1	Candoia aspera	Casp	Chromosome	Vertebrata	Reptilia
-GCF_035594765.1	Anolis carolinensis	Acar	Chromosome	Vertebrata	Reptilia
-GCF_900496995.4	Aquila chrysaetos	Achr	Chromosome	Vertebrata	Aves
-GCF_016699485.2	Gallus gallus	Ggal	Chromosome	Vertebrata	Aves
-GCF_028858705.1	Grus americana	Game	Chromosome	Vertebrata	Aves
-GCF_028389875.1	Rhea pennata	Rpen	Chromosome	Vertebrata	Aves
-GCF_004115215.2	Ornithorhynchus anatinus	Oana	Chromosome	Vertebrata	Mammalia
-GCF_015852505.1	Tachyglossus aculeatus	Tacu	Chromosome	Vertebrata	Mammalia
-GCF_016432865.1	Antechinus flavipes	Afla	Chromosome	Vertebrata	Mammalia
-GCF_902635505.1	Sarcophilus harrisii	Shar	Chromosome	Vertebrata	Mammalia
-GCF_015220235.1	Choloepus didactylus	Cdid	Chromosome	Vertebrata	Mammalia
-GCF_000001635.27	Mus musculus	Mmus	Chromosome	Vertebrata	Mammalia
-GCF_018350195.1	Panthera tigris	Ptig	Chromosome	Vertebrata	Mammalia
-GCF_003254725.2	Canis lupus	Clup	Chromosome	Vertebrata	Mammalia
-GCF_027574615.1	Eptesicus fuscus	Efus	Chromosome	Vertebrata	Mammalia
-GCF_000003025.6	Sus scrofa	Sscr	Chromosome	Vertebrata	Mammalia
-GCF_028564815.1	Eubalena glacialis	Egla	Chromosome	Vertebrata	Mammalia
-GCF_937001465.1	Orcinus orca	Oorc	Chromosome	Vertebrata	Mammalia
-GCF_910594005.1	Cervus elaphus	Cela	Chromosome	Vertebrata	Mammalia
-GCF_002863925.1	Equus caballus	Ecab	Chromosome	Vertebrata	Mammalia
-GCA_031878705.1	Tapirus indicus	Tind	Chromosome	Vertebrata	Mammalia
-GCF_020826845.1	Diceros bicornis	Dbic	Chromosome	Vertebrata	Mammalia
-GCF_020740605.2	Lemur catta	Lcat	Chromosome	Vertebrata	Mammalia
-GCF_028885625.2	Pongo pygmaeus	Ppyg	Compelte genome	Vertebrata	Mammalia
-GCF_000001405.40	Homo sapiens	Hsap	Chromosome	Vertebrata	Mammalia
-GCF_000150275.1	Trichoplax adherens Tadh Scaffold	Placozoa	Placozoa
+#Assembly_Accession	Organism_Name	Species_ID	Assembly_Level	Taxonomy_(Phylum)	Taxonomy_(Sub)
+GCA_963281255.1	Aphrocallistes_beatrix	Abea	Chromosome	Porifera	Hexactinellida
+GCA_949841015.1	Aplysina_aerophoba	Aaer	Chromosome	Porifera	Demospongiae
+GCA_963930775.1	Cliona_orientalis	Cori	Chromosome	Porifera	Demospongiae
+GCF_963422355.1	Corticium_candelabrum	Dcan	Chromosome	Porifera	Homoscleromorpha
+GCA_963678975.1	Dysidea_avara	Dava	Chromosome	Porifera	Demospongiae
+GCA_963969325.1	Lycopodina_hypogea	Lhyp	Chromosome	Porifera	Demospongiae
+GCA_947507565.1	Oscarella_lobularis	Olob	Chromosome	Porifera	Homoscleromorpha
+GCF_000090795.2	Amphimedon_queenslandica	Aque	Scaffold	Porifera	Demospongiae
+GCA_963930835.1	Spongia_officinalis	Soff	Chromosome	Porifera	Demospongiae
+GCA_949361645.1	Spongilla_lacustris	Slac	Chromosome	Porifera	Demospongiae
+GCA_963970385.1	Theonella_swinhoei	Tswi	Chromosome	Porifera	Demospongiae
+GCF_013753865.1	Acropora_millepora	Amil	Chromosome	Cnidaria	Anthozoa
+GCA_963930725.1	Candelabrum_cocksii	Ccoc	Chromosome	Cnidaria	Hydrozoa
+GCA_916610825.1	Haliclystus_octoradiatus	Hoct	Chromosome	Cnidaria	Staurozoa
+GCF_022113875.1	Hydra_vulgaris	Hvul	Chromosome	Cnidaria	Hydrozoa
+GCF_029227915.1	Hydractinia_symbiolongicarpus	Hsym	Chromosome	Cnidaria	Hydrozoa
+GCF_932526225.1	Nematostella_vectensis	Nvec	Chromosome	Cnidaria	Anthozoa
+GCA_949710005.1	Ricordea_florida	Rflo	Chromosome	Cnidaria	Anthozoa
+GCA_026151205.1	Bolinopsis_microptera	Bmic	Chromosome	Ctenophora	Tentaculata
+GCA_020137815.1	Hormiphora_californensis	Hcal	Chromosome	Ctenophora	Tentaculata
+GCA_034509925.1	Hirudinaria_manillensis	Hman	Chromosome	Annelida	Hirudinea
+GCA_936440205.1	Lepidonotus_clava	Lcla	Chromosome	Annelida	Polychaeta
+GCA_943735955.1	Piscicola_geometra	Pgeo	Chromosome	Annelida	Hirudinea
+GCA_942159475.1	Sthenelais_limicola	Slim	Chromosome	Annelida	Polychaeta
+GCA_019095985.1	Streblospio_benedicti	Sben	Chromosome	Annelida	Spionida
+GCA_949152475.1	Terebella_lapidaria	Tlap	Chromosome	Annelida	Polychaeta
+GCA_034190875.2	Urechis_unicinctus	Uuni	Chromosome	Annelida	Polychaeta
+GCA_026874595.1	Sipunculus_nudus	Snud	Chromosome	Annelida	Sipuncula
+GCA_013433145.1	Ascaris_suum	Asuu	Chromosome	Nematoda	Chromadorea
+GCF_000002995.4	Brugia_malayi	Bmal	Scaffold	Nematoda	Chromadorea
+GCF_000002985.6	Caenorhabditis_elegans	Cele	Complete_Genome	Nematoda	Chromadorea
+GCA_030553155.1	Nippostrongylus_brasiliensis	Nbra	Chromosome	Nematoda	Chromadorea
+GCA_013425905.1	Oscheius_tipulae	Otip	Chromosome	Nematoda	Chromadorea
+GCA_000757645.3	Steinernema_carpocapsae	Scar	Chromosome	Nematoda	Chromadorea
+GCA_030435675.1	Strongyloides_ratti	Srat	Chromosome	Nematoda	Chromadorea
+GCF_001040885.1	Trichinella_spiralis	Tspi	Chromosome	Nematoda	Enoplea
+GCF_000237925.1	Schistosoma_mansoni	Sman	Chromosome	Platyhelminthes	Trematoda
+GCA_001923025.3	Taenia_multiceps	Tmul	Chromosome	Platyhelminthes	Cestoda
+GCF_000002075.1	Aplysia_californica	Acal	Scaffold	Mollusca	Gastropoda
+GCF_947242115.1	Chrysomallon_squamiferum	Csqu	Chromosome	Mollusca	Gastropoda
+GCA_029237695.1	Doryteuthis_pealeii	Dpea	Chromosome	Mollusca	Cephalopoda
+GCF_002022765.2	Fragum_whitleyi	Fwhi	Chromosome	Mollusca	Bivalvia
+GCA_936450465.1	Liolophura_japonica	Ljap	Chromosome	Mollusca	Polyplacophora
+GCF_016097555.1	Lucinisca_nassula	Lnas	Chromosome	Mollusca	Bivalvia
+GCF_026914265.1	Octopus_sinensis	Osin	Chromosome	Mollusca	Cephalopoda
+GCF_006345805.1	Panopea_generosa	Pgen	Chromosome	Mollusca	Bivalvia
+GCA_963931925.1	Patella_vulgata	Pvul	Chromosome	Mollusca	Gastropoda
+GCF_947568905.1	Phorcus_lineatus	Plin	Chromosome	Mollusca	Gastropoda
+GCF_932274485.2	Pictodentalium_vernedei	Pver	Chromosome	Mollusca	Scaphopoda
+GCF_902652985.1	Pinctada_fucata	Pfuc	Chromosome	Mollusca	Bivalvia
+GCA_031216915.1	Rapana_venosa	Rven	Chromosome	Mollusca	Gastropoda
+GCA_028751875.1	Sinohyriopsis_cumingii	Scum	Chromosome	Mollusca	Bivalvia
+GCA_963585895.1	Siphonodentalium_dalli	Sdal	Chromosome	Mollusca	Scaphopoda
+GCA_963457665.1	Thysanoteuthis_rhombus	Trho	Chromosome	Mollusca	Cephalopoda
+GCF_902459465.1	Asterias_rubens	Arub	Chromosome	Echinodermata	Asteroidea
+GCA_035610835.1	Ophiura_sarsii	Osar	Chromosome	Echinodermata	Ophiuroidea
+GCF_000002235.5	Strongylocentrus_purpuratus	Spur	Scaffold	Echinodermata	Echinoidea
+GCA_037179385.1	Holothuria_scabra	Hsca	Chromosome	Echinodermata	Holothuroidea
+GCA_963402885.1	Antedon_bifida	Abif	Chromosome	Echinodermata	Crinoidea
+GCF_024364675.1	Aethina_tumida	Atum	Complete_Genome	Arthropoda	Coleoptera
+GCA_963082975.1	Lebia_minor	Lmin	Chromosome	Arthropoda	Dermaptera
+GCF_000001215.4	Drosophila_melanogaster	Dmel	Chromosome	Arthropoda	Diptera
+GCA_949318235.1	Ecdyonurus_torrentis	Etor	Chromosome	Arthropoda	Ephemeroptera
+GCF_003254395.2	Apis_mellifera	Amel	Chromosome	Arthropoda	Hymenoptera
+GCA_963575645.1	Xanthostigma_xanthostigma	Xxan	Chromosome	Arthropoda	Raphidioptera
+GCF_032362555.1	Amyelois_transitella	Atra	Complete_Genome	Arthropoda	Lepidoptera
+GCA_029203775.1	Neoneuromus_ignobilis	Nign	Chromosome	Arthropoda	Megaloptera
+GCF_905475395.1	Chrysoperla_carnea	Ccar	Chromosome	Arthropoda	Neuroptera
+GCA_963678705.1	Panorpa_germanica	Pger	Chromosome	Arthropoda	Mecoptera
+GCF_921293095.1	Ischnura_elegans	Iele	Chromosome	Arthropoda	Odonata
+GCF_023898315.1	Schistocerca_nitens	Snit	Chromosome	Arthropoda	Orthoptera
+GCA_921293315.2	Nemurella_pictetii	Npic	Chromosome	Arthropoda	Plecoptera
+GCF_032445375.1	Bacillus_rossius	Bros	Chromosome	Arthropoda	Phasmatodea
+GCA_023512825.1	Liposcelis_brunnea	Lbru	Chromosome	Arthropoda	Psocoptera
+GCF_005508785.2	Acyrthosiphon_pisum	Apis	Chromosome	Arthropoda	Hemiptera
+GCA_033675135.1	Frankliniella_intonsa	Fint	Chromosome	Arthropoda	Thysanoptera
+GCA_917563855.2	Limnephilus_lunatus	Llun	Chromosome	Arthropoda	Trichoptera
+GCA_028476895.1	Tetranychus_truncatus	Ttru	Complete_genome	Chelicerata	Acariformes
+GCA_963920705.1	Odiellus_spinosus	Ospi	Chromosome	Chelicerata	Opiliones
+GCA_030710605.1	Cordylochernes_scorpioides	Csco	Chromosome	Chelicerata	Pseudoscorpiones
+GCF_947563725.1	Argiope_bruennichi	Abru	Chromosome	Chelicerata	Araneae
+GCA_949358305.1	Strigamia_acuminata	Sacu	Chromosome	Myriapoda	Myriapoda
+GCF_021134715.1	Daphnia_pulex	Dpul	Chromosome	Crustacea	Branchiopoda
+GCA_030386875.1	Morinoia_aosen	Maos	Chromosome	Crustacea	Malacostraca
+GCF_015228065.2	Penaeus_monodon	Pmon	Chromosome	Crustacea	Malacostraca
+GCF_000003605.2	Saccoglossus_kowalevskii	Skow	Scaffold	Chordata	Hemichordata
+GCF_000003815.2	Branchiostoma_floridae	Bflo	Chromosome	Chordata	Cephalochordata
+GCA_963675345.1	Trididemnum_clinides	Tcli	Chromosome	Chordata	Tunicata
+GCF_000224145.3	Ciona_intestinalis	Cint	Chromosome	Chordata	Tunicata
+GCA_947623445.1	Clavelina_lepadiformis	Clep	Chromosome	Chordata	Tunicata
+GCF_010993605.1	Petromyzon_marinus	Pmar	Chromosome	Chordata	Cyclostomata
+GCF_015708825.1	Lethenteron_reissneri	Lrei	Chromosome	Chordata	Cyclostomata
+GCF_017639515.1	Charcharodon_charcharias	Ccha	Chromosome	Vertebrata	Chondrichthyes
+GCF_021869965.1	Rhincodon_typus	Rtyp	Chromosome	Vertebrata	Chondrichthyes
+GCF_020745735.1	Hemiscyllium_ocellatum	Hoce	Chromosome	Vertebrata	Chondrichthyes
+GCF_009764475.1	Pristis_pectinaria	Ppec	Chromosome	Vertebrata	Chondrichthyes
+GCF_963921235.1	Mobula_hypostoma	Mhyp	Chromosome	Vertebrata	Chondrichthyes
+GCA_035084275.1	Hydrolagus_colliei	Hcol	Chromosome	Vertebrata	Chondrichthyes
+GCF_902713425.1	Acipenser_ruthenus	Arut	Chromosome	Vertebrata	Osteichtyes
+GCF_013347855.1	Anguilla_anguilla	Aang	Chromosome	Vertebrata	Osteichtyes
+GCF_023856365.1	Brienomyrus_brachyistius	Bbra	Chromosome	Vertebrata	Osteichtyes
+GCF_023724105.1	Carassius_gibelio	Cgib	Complete_genome	Vertebrata	Osteichtyes
+GCF_022458985.1	Mugil_cephalus	Mcep	Complete_genome	Vertebrata	Osteichtyes
+GCF_000002035.6	Danio_rerio	Drer	Chromosome	Vertebrata	Osteichtyes
+GCF_000004195.4	Xenopus_tropicalis	Xtro	Chromosome	Vertebrata	Amphibia
+GCF_036172605.1	Pelobates_fuscus	Pfus	Chromosome	Vertebrata	Amphibia
+GCF_027358695.1	Spea_bombifrons	Sbom	Chromosome	Vertebrata	Amphibia
+GCA_026652325.1	Pleurodeles_waltl	Pwal	Chromosome	Vertebrata	Amphibia
+GCA_002915635.3	Ambystoma_mexicanum	Amex	Chromosome	Vertebrata	Amphibia
+GCF_902459505.1	Geotrypetes_seraphini	Gser	Chromosome	Vertebrata	Amphibia
+GCF_015237465.2	Chelonia_mydas	Cmyd	Chromosome	Vertebrata	Reptilia
+GCF_007399415.2	Gopherus_evgoodei	Gevg	Chromosome	Vertebrata	Reptilia
+GCF_030867095.1	Alligator_mississipiensis	Amis	Chromosome	Vertebrata	Reptilia
+GCF_004329235.1	Podarcis_muralis	Pmur	Chromosome	Vertebrata	Reptilia
+GCF_023053635.1	Elgaria_multicarinata	Emul	Chromosome	Vertebrata	Reptilia
+GCF_035149785.1	Candoia_aspera	Casp	Chromosome	Vertebrata	Reptilia
+GCF_035594765.1	Anolis_carolinensis	Acar	Chromosome	Vertebrata	Reptilia
+GCF_900496995.4	Aquila_chrysaetos	Achr	Chromosome	Vertebrata	Aves
+GCF_016699485.2	Gallus_gallus	Ggal	Chromosome	Vertebrata	Aves
+GCF_028858705.1	Grus_americana	Game	Chromosome	Vertebrata	Aves
+GCF_028389875.1	Rhea_pennata	Rpen	Chromosome	Vertebrata	Aves
+GCF_004115215.2	Ornithorhynchus_anatinus	Oana	Chromosome	Vertebrata	Mammalia
+GCF_015852505.1	Tachyglossus_aculeatus	Tacu	Chromosome	Vertebrata	Mammalia
+GCF_016432865.1	Antechinus_flavipes	Afla	Chromosome	Vertebrata	Mammalia
+GCF_902635505.1	Sarcophilus_harrisii	Shar	Chromosome	Vertebrata	Mammalia
+GCF_015220235.1	Choloepus_didactylus	Cdid	Chromosome	Vertebrata	Mammalia
+GCF_000001635.27	Mus_musculus	Mmus	Chromosome	Vertebrata	Mammalia
+GCF_018350195.1	Panthera_tigris	Ptig	Chromosome	Vertebrata	Mammalia
+GCF_003254725.2	Canis_lupus	Clup	Chromosome	Vertebrata	Mammalia
+GCF_027574615.1	Eptesicus_fuscus	Efus	Chromosome	Vertebrata	Mammalia
+GCF_000003025.6	Sus_scrofa	Sscr	Chromosome	Vertebrata	Mammalia
+GCF_028564815.1	Eubalena_glacialis	Egla	Chromosome	Vertebrata	Mammalia
+GCF_937001465.1	Orcinus_orca	Oorc	Chromosome	Vertebrata	Mammalia
+GCF_910594005.1	Cervus_elaphus	Cela	Chromosome	Vertebrata	Mammalia
+GCF_002863925.1	Equus_caballus	Ecab	Chromosome	Vertebrata	Mammalia
+GCA_031878705.1	Tapirus_indicus	Tind	Chromosome	Vertebrata	Mammalia
+GCF_020826845.1	Diceros_bicornis	Dbic	Chromosome	Vertebrata	Mammalia
+GCF_020740605.2	Lemur_catta	Lcat	Chromosome	Vertebrata	Mammalia
+GCF_028885625.2	Pongo_pygmaeus	Ppyg	Compelte_genome	Vertebrata	Mammalia
+GCF_000001405.40	Homo_sapiens	Hsap	Chromosome	Vertebrata	Mammalia
+GCF_000150275.1	Trichoplax_adherens	Tadh	Scaffold	Placozoa	Placozoa

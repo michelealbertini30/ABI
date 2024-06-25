@@ -6,6 +6,7 @@ txt=$2
 out=$3
 
 base_name=$(basename "$fasta" .augustus.aa)
+touch "$fasta"
 
 declare -A true_genes
 while IFS= read -r gene; do
