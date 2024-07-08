@@ -1,0 +1,177 @@
+--------------------------------------------------------------------------------
+ModelTest-NG v0.1.7
+
+Input data:
+  MSA:        ../ABI.trimal.fa
+  Tree:       Maximum likelihood
+    file:           -
+  #taxa:            224
+  #sites:           479
+  #patterns:        479
+  Max. thread mem:  261 MB
+
+Output:
+  Log:           ../ABI.trimal.fa.log
+  Starting tree: ../ABI.trimal.fa.tree
+  Results:       ../ABI.trimal.fa.out
+
+Selection options:
+  # protein matrices: 19
+  # protein models:   152
+  include model parameters:
+    Uniform:         true
+    p-inv (+I):      true
+    gamma (+G):      true
+    both (+I+G):     true
+    free rates (+R): false
+    fixed freqs:     true
+    estimated freqs: false
+    #categories:     4
+  gamma rates mode:   mean
+  asc bias:           none
+  epsilon (opt):      0.01
+  epsilon (par):      0.05
+  keep branches:      false
+
+Additional options:
+  verbosity:        very low
+  threads:          10/28
+  RNG seed:         12345
+  subtree repeats:  enabled
+--------------------------------------------------------------------------------
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  JTT+I+G4           2    -48034.5184     98827.7870         0.0000    0.9974
+       2  JTT+G4             1    -48043.5584     98839.6952        11.9082    0.0026
+       3  JTT-DCMUT+I+G4     2    -48050.7878     98860.3259        32.5389    0.0000
+       4  JTT-DCMUT+G4       1    -48058.3683     98869.3150        41.5281    0.0000
+       5  LG+I+G4+F         21    -48081.1872     99038.3869       210.5999    0.0000
+       6  LG+G4+F           20    -48088.8957     99047.6321       219.8451    0.0000
+       7  JTT+I+G4+F        21    -48172.3135     99220.6395       392.8525    0.0000
+       8  JTT+G4+F          20    -48181.5308     99232.9024       405.1154    0.0000
+       9  JTT-DCMUT+G4+F    20    -48185.6318     99241.1045       413.3175    0.0000
+      10  JTT-DCMUT+I+G4+F   21    -48183.5830     99243.1784       415.3915    0.0000
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              JTT+I+G4
+lnL:                -48034.5184
+Frequencies:        0.0767 0.0517 0.0426 0.0515 0.0198 0.0408 0.0618 0.0732 0.0229 0.0538 0.0919 0.0587 0.0238 0.0401 0.0509 0.0688 0.0586 0.0143 0.0321 0.0660
+Inv. sites prop:    0.0040
+Gamma shape:        1.2808
+Score:              98827.7870
+Weight:             0.9974
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              -
+Gamma:              0.0026
+Gamma-Inv:          0.9974
+Frequencies:        0.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              -
+Alpha:              1.3030
+Alpha-P.Inv:        1.2808
+P.Inv-Alpha:        0.0040
+Frequencies:        0.0684 0.0523 0.0479 0.0468 0.0060 0.0482 0.0616 0.0621 0.0212 0.0503 0.0649 0.0419 0.0237 0.0157 0.1258 0.0873 0.0628 0.0053 0.0450 0.0629 
+
+Commands:
+  > phyml  -i ../ABI.trimal.fa -d aa -m JTT -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s ../ABI.trimal.fa -m PROTGAMMAIJTT -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa ../ABI.trimal.fa --model JTT+I+G4
+  > paup -s ../ABI.trimal.fa
+  > iqtree -s ../ABI.trimal.fa -m JTT+I+G4
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  JTT+I+G4           2    -48034.5184     96963.0368         0.0000    0.9997
+       2  JTT+G4             1    -48043.5584     96979.1167        16.0799    0.0003
+       3  JTT-DCMUT+I+G4     2    -48050.7878     96995.5757        32.5389    0.0000
+       4  JTT-DCMUT+G4       1    -48058.3683     97008.7366        45.6998    0.0000
+       5  LG+I+G4+F         21    -48081.1872     97094.3744       131.3376    0.0000
+       6  LG+G4+F           20    -48088.8957     97107.7913       144.7545    0.0000
+       7  JTT+I+G4+F        21    -48172.3135     97276.6270       313.5902    0.0000
+       8  JTT+G4+F          20    -48181.5308     97293.0616       330.0248    0.0000
+       9  JTT-DCMUT+I+G4+F   21    -48183.5830     97299.1659       336.1291    0.0000
+      10  JTT-DCMUT+G4+F    20    -48185.6318     97301.2637       338.2269    0.0000
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              JTT+I+G4
+lnL:                -48034.5184
+Frequencies:        0.0767 0.0517 0.0426 0.0515 0.0198 0.0408 0.0618 0.0732 0.0229 0.0538 0.0919 0.0587 0.0238 0.0401 0.0509 0.0688 0.0586 0.0143 0.0321 0.0660
+Inv. sites prop:    0.0040
+Gamma shape:        1.2808
+Score:              96963.0368
+Weight:             0.9997
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              -
+Gamma:              0.0003
+Gamma-Inv:          0.9997
+Frequencies:        0.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              -
+Alpha:              1.3030
+Alpha-P.Inv:        1.2808
+P.Inv-Alpha:        0.0040
+Frequencies:        0.0684 0.0523 0.0479 0.0468 0.0060 0.0482 0.0616 0.0621 0.0212 0.0503 0.0649 0.0419 0.0237 0.0157 0.1258 0.0873 0.0628 0.0053 0.0450 0.0629 
+
+Commands:
+  > phyml  -i ../ABI.trimal.fa -d aa -m JTT -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s ../ABI.trimal.fa -m PROTGAMMAIJTT -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa ../ABI.trimal.fa --model JTT+I+G4
+  > paup -s ../ABI.trimal.fa
+  > iqtree -s ../ABI.trimal.fa -m JTT+I+G4
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  JTT+G4             1    -48043.5584    109439.1167         0.0000    1.0000
+       2  JTT-DCMUT+G4       1    -48058.3683    109468.7366        29.6199    0.0000
+       3  JTT+I+G4           2    -48034.5184    109882.0368       442.9201    0.0000
+       4  JTT-DCMUT+I+G4     2    -48050.7878    109914.5757       475.4590    0.0000
+       5  VT+G4              1    -48329.9410    110011.8820       572.7653    0.0000
+       6  LG+G4              1    -48352.0259    110056.0519       616.9352    0.0000
+       7  WAG+G4             1    -48375.4622    110102.9244       663.8077    0.0000
+       8  VT+I+G4            2    -48321.3708    110455.7417      1016.6250    0.0000
+       9  LG+I+G4            2    -48337.3486    110487.6972      1048.5805    0.0000
+      10  DAYHOFF+G4         1    -48592.7863    110537.5727      1098.4560    0.0000
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              JTT+G4
+lnL:                -48043.5584
+Frequencies:        0.0767 0.0517 0.0426 0.0515 0.0198 0.0408 0.0618 0.0732 0.0229 0.0538 0.0919 0.0587 0.0238 0.0401 0.0509 0.0688 0.0586 0.0143 0.0321 0.0660
+Inv. sites prop:    -
+Gamma shape:        1.3030
+Score:              109439.1167
+Weight:             1.0000
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              -
+Gamma:              1.0000
+Gamma-Inv:          0.0000
+Frequencies:        -
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              -
+Alpha:              1.3030
+Alpha-P.Inv:        1.2808
+P.Inv-Alpha:        0.0040
+Frequencies:        -
+
+Commands:
+  > phyml  -i ../ABI.trimal.fa -d aa -m JTT -f m -v 0 -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s ../ABI.trimal.fa -m PROTGAMMAJTT -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa ../ABI.trimal.fa --model JTT+G4
+  > paup -s ../ABI.trimal.fa
+  > iqtree -s ../ABI.trimal.fa -m JTT+G4
+Done
