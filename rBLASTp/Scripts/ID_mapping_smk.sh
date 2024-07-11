@@ -17,5 +17,5 @@ while IFS=$'\t' read -r gene protein rest; do
         else
         	echo -e "$gene\t$protein\t$rest"
         fi
-	done < "$file" > "$output"
-done
+done < "$file" > "$output"
+
