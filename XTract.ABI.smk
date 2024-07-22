@@ -1,6 +1,5 @@
 configfile: 'logs/config.smk.yaml'
 exp=config['Run']['Expansion']
-blast_db=config['Files']['Blast_Database']
 getAnnoFasta=config['Scripts']['getAnnoFasta']
 
 sample = glob_wildcards('Genomes/{sample}.fna')[0]
@@ -9,15 +8,14 @@ sample = glob_wildcards('Genomes/{sample}.fna')[0]
 rule all:
 	input:
 		expand('miniprot_gff/{sample}.gff', sample = sample),
-		expand('fai/{sample}.fai', sample = sample),
 		expand('agat_cds/{sample}.agat.fa', sample = sample),
 		expand('augustus/{sample}.augustus.gff', sample = sample),
 		expand('augustus/{sample}.augustus.aa', sample = sample),
 		expand('augustus/{sample}.augustus.codingseq', sample = sample),
 		expand('interproscan/tsv/{sample}.augustus.aa.tsv', sample = sample),
 #		expand('interproscan/gff/{sample}.augustus.aa.gff3', sample = sample),
-		expand('Genes/{sample}.filtered.fa', sample = sample),
 		expand('Genes/{sample}.trueABI.txt', sample = sample),
+		expand('Genes/{sample}.filtered.fa', sample = sample),
 		expand('Genes/{sample}.filtered.reformat.fa', sample = sample),
 		expand('Genes/{sample}.cdhit.fa', sample = sample),
 #		expand('Mafft/{sample}.mafft.fa', sample = sample),
@@ -25,7 +23,7 @@ rule all:
 rule miniprot:
         input:
                 genome = 'Genomes/{sample}.fna',
-                proteins = 'Proteins/ABI.all_proteins.faa'
+                proteins = 'Proteins/ABI.all_proteins_rnd2.fa'
         threads:
                 config['Run']['Threads']
         output:
@@ -116,9 +114,9 @@ rule reformat_combine:
 	shell:
 		'''
 		for file in {input.genes}; do
+			
 			filename=$(basename "$file" .filtered.fa)
-
-			sed "s/t1/$filename/g" {input.genes} > {output.reformat}
+			sed "s/t1/{sample}/g" {input.genes} > {output.reformat}
 
                done
 

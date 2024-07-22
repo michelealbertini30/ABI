@@ -11,9 +11,9 @@ rule all:
 		expand('blast/{sample}.map1', sample = sample),
 		expand('blast/{sample}.map2', sample = sample),
 		expand('blast/{sample}.crd', sample = sample),
-		expand('blast/{sample}.loci', sample = sample),
-		expand('blast/{sample}.merge', sample = sample),
-		expand('blast/{sample}.abi', sample = sample),
+#		expand('blast/{sample}.loci', sample = sample),
+#		expand('blast/{sample}.merge', sample = sample),
+#		expand('blast/{sample}.abi', sample = sample),
 
 rule reverse_blast:
         input:
