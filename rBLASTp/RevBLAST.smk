@@ -11,9 +11,11 @@ rule all:
 		expand('blast/{sample}.map1', sample = sample),
 		expand('blast/{sample}.map2', sample = sample),
 		expand('blast/{sample}.crd', sample = sample),
-#		expand('blast/{sample}.loci', sample = sample),
-#		expand('blast/{sample}.merge', sample = sample),
-#		expand('blast/{sample}.abi', sample = sample),
+		expand('blast/{sample}.loci', sample = sample),
+		expand('blast/{sample}.merge', sample = sample),
+		expand('blast/{sample}.abi', sample = sample),
+		expand('blast/{sample}.trueABI.txt', sample = sample),
+		expand('blast/{sample}.final', sample = sample)
 
 rule reverse_blast:
         input:
@@ -94,12 +96,29 @@ rule merge:
 		paste <(printf %s "$id") <(printf %s "$file1") <(printf %s "$file2") <(printf %s "$file3") > {output}
 		'''
 
-rule filtering:
+rule selection:
 	input:
 		'blast/{sample}.merge'
 	output:
 		'blast/{sample}.abi'
 	shell:
 		'''
-		sort -k5,5 -k16,16r {input} | awk  '!seen[$5]++' > {output}
+		sort -k5,5 -k16,16nr {input} | awk  '!seen[$5]++' > {output}
 		'''
+
+rule trueABI:
+	input:
+		'blast/{sample}.abi'
+	output:
+		'blast/{sample}.trueABI.txt'
+	shell:
+		'cut -f1 {input} > {output}'
+
+rule filtering:
+	input:
+		fasta = 'Genes/{sample}.cdhit.fa',
+		txt = 'blast/{sample}.trueABI.txt'
+	output:
+		'blast/{sample}.final'
+	shell:
+		'bash Scripts/Interpro_filter_smk.sh {input.fasta} {input.txt} {output}'
