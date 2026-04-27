@@ -1,0 +1,164 @@
+Assembly Accession	Organism Name	Species ID	Assembly Level	Busco (C)	Augustus TM	Taxonomy (Phylum)	Taxonomy (Sub)	Taxonomy (Sub)	Taxonomy (Sub)	Taxonomy (Sub)
+GCA_949841015.1	Aplysina aerophoba	Aaer	Chromosome	69,10%	amphimedon	Porifera	Demospongiae	Verongiida		
+GCA_963281255.1	Aphrocallistes beatrix	Abea	Chromosome	77,70%	amphimedon	Porifera	Hexactinellida			
+GCF_000090795.2	Amphimedon queenslandica	Aque	Scaffold	88,70%	amphimedon	Porifera	Demospongiae	Haplosclerida		
+GCA_963930775.1	Cliona orientalis	Cori	Chromosome	80,30%	amphimedon	Porifera	Demospongiae	Clionaida		
+GCA_963678975.1	Dysidea avara	Dava	Chromosome	75,40%	amphimedon	Porifera	Demospongiae	Dyctioceratida		
+GCF_963422355.1	Corticium candelabrum	Dcan	Chromosome	91,40%	amphimedon	Porifera	Homoscleromorpha			
+GCA_963969325.1	Lycopodina hypogea	Lhyp	Chromosome	68,20%	amphimedon	Porifera	Demospongiae	Poecilosclerida		
+GCA_947507565.1	Oscarella lobularis	Olob	Chromosome	77,90%	amphimedon	Porifera	Homoscleromorpha			
+GCA_949361645.1	Spongilla lacustris	Slac	Chromosome	65,50%	amphimedon	Porifera	Demospongiae	Spongillida		
+GCA_963970385.1	Theonella swinhoei	Tswi	Chromosome	69,20%	amphimedon	Porifera	Demospongiae	Tetractinellida		
+GCA_026151205.1	Bolinopsis microptera	Bmic	Chromosome	70,10%	amphimedon	Ctenophora	Tentaculata			
+GCA_020137815.1	Hormiphora californensis	Hcal	Chromosome	66,30%	amphimedon	Ctenophora	Tentaculata			
+GCF_000150275.1	Trichoplax adherens	Tadh	Scaffold	88,40%	amphimedon	Placozoa	Placozoa			
+GCF_013753865.1	Acropora millepora	Amil	Chromosome	92,30%	amphimedon	Cnidaria	Anthozoa	Scleractinia		
+GCA_963930725.1	Candelabrum cocksii	Ccoc	Chromosome	88,50%	amphimedon	Cnidaria	Hydrozoa			
+GCA_916610825.1	Haliclystus octoradiatus	Hoct	Chromosome	81,90%	amphimedon	Cnidaria	Staurozoa			
+GCF_029227915.1	Hydractinia symbiolongicarpus	Hsym	Chromosome	90,30%	amphimedon	Cnidaria	Hydrozoa			
+GCF_022113875.1	Hydra vulgaris	Hvul	Chromosome	92,50%	amphimedon	Cnidaria	Hydrozoa			
+GCF_932526225.1	Nematostella vectensis	Nvec	Chromosome	94,90%	amphimedon	Cnidaria	Anthozoa	Actiniaria		
+GCA_949710005.1	Ricordea florida	Rflo	Chromosome	95,70%	amphimedon	Cnidaria	Anthozoa	Corallimorpharia		
+GCA_013433145.1	Ascaris suum	Asuu	Chromosome	76,20%	caenorhabditis	Nematoda	Secernentea	Ascaridia		
+GCF_000002995.4	Brugia malayi	Bmal	Scaffold	77,10%	caenorhabditis	Nematoda	Secernentea	Spirurida		
+GCF_000002985.6	Caenorhabditis elegans	Cele	Complete Genome	72,20%	caenorhabditis	Nematoda	Chromadorea	Rhabditida	Rhabditidae	
+GCA_030553155.1	Nippostrongylus brasiliensis	Nbra	Chromosome	65,40%	caenorhabditis	Nematoda	Chromadorea	Rhabditida	Heligmonellidae	
+GCA_013425905.1	Oscheius tipulae	Otip	Chromosome	67,90%	caenorhabditis	Nematoda	Chromadorea	Rhabditida	Rhabditidae	
+GCA_000757645.3	Steinernema carpocapsae	Scar	Chromosome	70,10%	caenorhabditis	Nematoda	Chromadorea	Rhabditida	Steinermatidae	
+GCA_030435675.1	Strongyloides ratti	Srat	Chromosome	71,90%	caenorhabditis	Nematoda	Chromadorea	Rhabditida	Strongylidae	
+GCF_001040885.1	Trichinella spiralis	Tspi	Chromosome	68,90%	caenorhabditis	Nematoda	Enoplea			
+GCF_003254395.2	Apis mellifera	Amel	Chromosome	99,50%	fly	Arthropoda	Hymenoptera			
+GCF_005508785.2	Acyrthosiphon pisum	Apis	Chromosome	94,30%	fly	Arthropoda	Hemiptera			
+GCF_032362555.1	Amyelois transitella	Atra	Complete Genome	99,00%	fly	Arthropoda	Lepidoptera			
+GCF_024364675.1	Aethina tumida	Atum	Complete Genome	98,70%	fly	Arthropoda	Coleoptera			
+GCF_032445375.1	Bacillus rossius	Bros	Chromosome	98,00%	fly	Arthropoda	Phasmatodea			
+GCF_905475395.1	Chrysoperla carnea	Ccar	Chromosome	96,80%	fly	Arthropoda	Neuroptera			
+GCF_000001215.4	Drosophila melanogaster	Dmel	Chromosome	99,10%	fly	Arthropoda	Diptera			
+GCA_949318235.1	Ecdyonurus torrentis	Etor	Chromosome	97,00%	fly	Arthropoda	Ephemeroptera			
+GCA_033675135.1	Frankliniella intonsa	Fint	Chromosome	96,30%	fly	Arthropoda	Thysanoptera			
+GCF_921293095.1	Ischnura elegans	Iele	Chromosome	97,90%	fly	Arthropoda	Odonata			
+GCA_023512825.1	Liposcelis brunnea	Lbru	Chromosome	98,90%	fly	Arthropoda	Psocoptera			
+GCA_917563855.2	Limnephilus lunatus	Llun	Chromosome	90,50%	fly	Arthropoda	Trichoptera			
+GCA_963082975.1	Lebia minor	Lmin	Chromosome	97,00%	fly	Arthropoda	Dermaptera			
+GCA_029203775.1	Neoneuromus ignobilis	Nign	Chromosome	98,90%	fly	Arthropoda	Megaloptera			
+GCA_921293315.2	Nemurella pictetii	Npic	Chromosome	97,80%	fly	Arthropoda	Plecoptera			
+GCA_963678705.1	Panorpa germanica	Pger	Chromosome	99,10%	fly	Arthropoda	Mecoptera			
+GCF_023898315.1	Schistocerca nitens	Snit	Chromosome	96,70%	fly	Arthropoda	Orthoptera			
+GCA_963575645.1	Xanthostigma xanthostigma	Xxan	Chromosome	98,70%	fly	Arthropoda	Raphidioptera			
+GCF_021134715.1	Daphnia pulex	Dpul	Chromosome	97,40%	fly	Crustacea	Branchiopoda			
+GCA_030386875.1	Morinoia aosen	Maos	Chromosome	91,00%	fly	Crustacea	Malacostraca			
+GCF_015228065.2	Penaeus monodon	Pmon	Chromosome	80,50%	fly	Crustacea	Malacostraca			
+GCF_947563725.1	Argiope bruennichi	Abru	Chromosome	97,10%	fly	Chelicerata	Araneae			
+GCA_030710605.1	Cordylochernes scorpioides	Csco	Chromosome	85,10%	fly	Chelicerata	Pseudoscorpiones			
+GCA_963920705.1	Odiellus spinosus	Ospi	Chromosome	95,90%	fly	Chelicerata	Opiliones			
+GCA_028476895.1	Tetranychus truncatus	Ttru	Complete genome	86,60%	fly	Chelicerata	Acariformes			
+GCA_949358305.1	Strigamia acuminata	Sacu	Chromosome	96,50%	fly	Myriapoda	Myriapoda			
+GCF_000237925.1	Schistosoma mansoni	Sman	Chromosome	69,30%	schistosoma	Platyhelminthes	Trematoda			
+GCA_001923025.3	Taenia multiceps	Tmul	Chromosome	67,70%	schistosoma	Platyhelminthes	Cestoda			
+GCA_034509925.1	Hirudinaria manillensis	Hman	Chromosome	84,60%	schistosoma	Annelida	Hirudinea			
+GCA_936440205.1	Lepidonotus clava	Lcla	Chromosome	95,40%	schistosoma	Annelida	Polychaeta	Errantia		
+GCA_943735955.1	Piscicola geometra	Pgeo	Chromosome	75,40%	schistosoma	Annelida	Hirudinea			
+GCA_019095985.1	Streblospio benedicti	Sben	Chromosome	89,40%	schistosoma	Annelida	Spionida			
+GCA_942159475.1	Sthenelais limicola	Slim	Chromosome	95,70%	schistosoma	Annelida	Polychaeta	Errantia 		
+GCA_026874595.1	Sipunculus nudus	Snud	Chromosome	96,10%	schistosoma	Annelida	Sipuncula			
+GCA_949152475.1	Terebella lapidaria	Tlap	Chromosome	96,40%	schistosoma	Annelida	Polychaeta	Sedentaria		
+GCA_034190875.2	Urechis unicinctus	Uuni	Chromosome	93,70%	schistosoma	Annelida	Polychaeta	Sedentaria		
+GCF_000002075.1	Aplysia californica	Acal	Scaffold	93,40%	schistosoma	Mollusca	Gastropoda	Aplysioidea		
+GCF_947242115.1	Chrysomallon squamiferum	Csqu	Chromosome	95,20%	schistosoma	Mollusca	Gastropoda	Neomphaliones		
+GCA_029237695.1	Doryteuthis pealeii	Dpea	Chromosome	94,40%	schistosoma	Mollusca	Cephalopoda	Myopsida		
+GCF_002022765.2	Fragum whitleyi	Fwhi	Chromosome	98,20%	schistosoma	Mollusca	Bivalvia	Cardiida		
+GCA_936450465.1	Liolophura japonica	Ljap	Chromosome	96,10%	schistosoma	Mollusca	Polyplacophora			
+GCF_016097555.1	Lucinisca nassula	Lnas	Chromosome	95,90%	schistosoma	Mollusca	Bivalvia	Lucinida		
+GCF_026914265.1	Octopus sinensis	Osin	Chromosome	93,40%	schistosoma	Mollusca	Cephalopoda	Octopodiformes		
+GCF_902652985.1	Pinctada fucata	Pfuc	Chromosome	97,30%	schistosoma	Mollusca	Bivalvia	Pteriomorphia		
+GCF_006345805.1	Panopea generosa	Pgen	Chromosome	96,00%	schistosoma	Mollusca	Bivalvia	Adapedonta		
+GCF_947568905.1	Phorcus lineatus	Plin	Chromosome	98,90%	schistosoma	Mollusca	Gastropoda	Vetigastropoda		
+GCF_932274485.2	Pictodentalium vernedei	Pver	Chromosome	97,70%	schistosoma	Mollusca	Scaphopoda			
+GCA_963931925.1	Patella vulgata	Pvul	Chromosome	96,90%	schistosoma	Mollusca	Gastropoda	Patellogastropoda		
+GCA_028751875.1	Sinohyriopsis cumingii	Scum	Chromosome	87,90%	schistosoma	Mollusca	Bivalvia	Paleoheterodonta		
+GCA_963585895.1	Siphonodentalium dalli	Sdal	Chromosome	92,10%	schistosoma	Mollusca	Scaphopoda			
+GCA_963457665.1	Thysanoteuthis rhombus	Trho	Chromosome	96,10%	schistosoma	Mollusca	Cephalopoda	Oegopsida		
+GCF_000003605.2	Saccoglossus kowalevskii	Skow	Scaffold	89,00%	sealamprey	Chordata	Hemichordata			
+GCA_001465055.1 	 Ptychodera flava	Pfla	Scaffold	83,50%	sealamprey	Chordata	Hemichordata			
+GCA_963402885.1	Antedon bifida	Abif	Chromosome	95,50%	sealamprey	Echinodermata	Crinoidea			
+GCF_902459465.1	Asterias rubens	Arub	Chromosome	97,30%	sealamprey	Echinodermata	Asteroidea			
+GCA_037179385.1	Holothuria scabra	Hsca	Chromosome	94,60%	sealamprey	Echinodermata	Holothuroidea			
+GCA_035610835.1	Ophiura sarsii	Osar	Chromosome	93,10%	sealamprey	Echinodermata	Ophiuroidea			
+GCF_000002235.5	Strongylocentrus purpuratus	Spur	Scaffold	98,20%	sealamprey	Echinodermata	Echinoidea			
+GCA_001663935.1	Asymmetron lucayanum	Aluc	Scaffold	23,30%	sealamprey	Chordata	Cephalochordata			
+GCF_000003815.2	Branchiostoma floridae	Bflo	Chromosome	96,20%	sealamprey	Chordata	Cephalochordata			
+GCA_963924565.1	Ascidiella aspersa	Aasp	Chromosome	91,70%	sealamprey	Chordata	Urochordata	Phlebobranchia	Ascidiidae	
+GCF_000224145.3	Ciona intestinalis	Cint	Chromosome	93,60%	sealamprey	Chordata	Urochordata	Phlebobranchia	Cionidae	
+GCA_947623445.1	Clavelina lepadiformis	Clep	Chromosome	93,30%	sealamprey	Chordata	Urochordata	Aplousobranchia	Clavelinidae	
+GCA_918807975.1	Aplidium turbinatum	Atur	Chromosome	93,70%	sealamprey	Chordata	Urochordata	Aplousobranchia	Polyclinidae	
+GCA_963082875.1	Corella eumyota	Ceum	Chromosome	91,40%	sealamprey	Chordata	Urochordata	Phlebobranchia	Corellidae	
+GCA_963675895.2	Styela plicata	Spli	Chromosome	92,70%	sealamprey	Chordata	Urochordata			
+GCA_963675345.1	Trididemnum clinides	Tcli	Chromosome	91,80%	sealamprey	Chordata	Urochordata	Aplousobranchia	Didemnidae	
+GCF_015708825.1	Lethenteron reissneri	Lrei	Chromosome	82,80%	sealamprey	Vertebrate	Cyclostomata	Petromizontidae		
+GCF_010993605.1	Petromyzon marinus	Pmar	Chromosome	92,80%	sealamprey	Vertebrata	Cyclostomata	Petromizontidae		
+GCA_035128595.1	Eptatretus atami	Eata	Chromosome	93,70%	sealamprey	Vertebrata	Cyclostomata	Myxine		
+GCA_964187855.1	Myxine glutinosa	Mglu	Chromosome	93,20%	sealamprey	Vertebrata	Cyclostomata	Myxine		
+GCF_017639515.1	Charcharodon charcharias	Ccha	Chromosome	97,50%	zebrafish	Vertebrata	Chondrichthyes	Lamniformes		
+GCA_035084275.1	Hydrolagus colliei	Hcol	Chromosome	83,50%	zebrafish	Vertebrata	Chondrichthyes	Holocephala		
+GCF_020745735.1	Hemiscyllium ocellatum	Hoce	Chromosome	96,70%	zebrafish	Vertebrata	Chondrichthyes	Orectolobiformes		
+GCA_035084135.2	Heptranchias perlo	Hper	Chromosome	94,40%	zebrafish	Vertebrata	Chondrichthyes	Hexanchiformes		
+GCF_963921235.1	Mobula hypostoma	Mhyp	Chromosome	98,50%	zebrafish	Vertebrata	Chondrichthyes	Batoidea		
+GCF_009764475.1	Pristis pectinaria	Ppec	Chromosome	95,20%	zebrafish	Vertebrata	Chondrichthyes	Batoidea		
+GCA_030390025.1	Squalus acanthias	Saca	Chromosome	94,20%	zebrafish	Vertebrata	Chondrichthyes	Squaliformes		
+GCF_013347855.1	Anguilla anguilla	Aang	Chromosome	99,00%	zebrafish	Vertebrata	Osteichtyes	Elopomorpha		
+GCF_902713425.1	Acipenser ruthenus	Arut	Chromosome	99,60%	zebrafish	Vertebrata	Osteichtyes	Holostei		
+GCF_023856365.1	Brienomyrus brachyistius	Bbra	Chromosome	99,00%	zebrafish	Vertebrata	Osteichtyes	Osteoglossomorpha		
+GCF_023724105.1	Carassius gibelio	Cgib	Complete genome	99,20%	zebrafish	Vertebrata	Osteichtyes	Otomorpha		
+GCF_000002035.6	Danio rerio	Drer	Chromosome	97,50%	zebrafish	Vertebrata	Osteichtyes	Euteleostomorpha		
+GCF_037176945.1	Latimeria chalumnae	Lcha	Chromosome	99,00%	zebrafish	Vertebrata	Osteichtyes			
+GCF_022458985.1	Mugil cephalus	Mcep	Complete genome	98,00%	zebrafish	Vertebrata	Osteichtyes	Euteleostomorpha		
+GCA_016271365.2	Neoceratodus forsteri	Nfor	Chromosome	81,70%	zebrafish	Vertebrata	Osteichtyes			
+GCA_002915635.3	Ambystoma mexicanum	Amex	Chromosome	86,60%	zebrafish	Vertebrata	Amphibia	Caudata		
+GCF_905171765.1	Bufo bufo	Bbuf	Chromosome	98,40%	zebrafish	Vertebrata	Amphibia	Bufonidae		
+GCF_902459505.1	Geotrypetes seraphini	Gser	Chromosome	99,20%	zebrafish	Vertebrata	Amphibia	Gymnophiona		
+GCF_901765095.1	Microcaecilia unicolor	Muni	Chromosome	98,60%	zebrafish	Vertebrata	Amphibia	Gymnophiona		
+GCF_036172605.1	Pelobates fuscus	Pfus	Chromosome	99,30%	zebrafish	Vertebrata	Amphibia	Anura	Pelobatidae	
+GCA_026652325.1	Pleurodeles waltl	Pwal	Chromosome	98,10%	zebrafish	Vertebrata	Amphibia	Caudata	Salamandroidea	
+GCF_027358695.1	Spea bombifrons	Sbom	Chromosome	99,00%	zebrafish	Vertebrata	Amphibia	Anura	Scaphiopodidae	
+GCF_000004195.4	Xenopus tropicalis	Xtro	Chromosome	99,50%	zebrafish	Vertebrata	Amphibia	Anura	Pipidae	
+GCF_035594765.1	Anolis carolinensis	Acar	Chromosome	98,60%	chicken	Vertebrata	Reptilia	Squamata	Iguanida	
+GCF_030867095.1	Alligator mississipiensis	Amis	Chromosome	97,60%	chicken	Vertebrata	Reptilia	Crocodylia		
+GCF_035149785.1	Candoia aspera	Casp	Chromosome	98,90%	chicken	Vertebrata	Reptilia	Squamata	Serpentes	
+GCF_015237465.2	Chelonia mydas	Cmyd	Chromosome	98,30%	chicken	Vertebrata	Reptilia	Testudines		
+GCF_001723895.1	Crocodylus porosus	Cpor	Chromosome	86,90%	chicken	Vertebrata	Reptilia	Crocodylia		
+GCF_028583425.1	Eublepharis macularius	Emac	Chromosome	99,10%	chicken	Vertebrata	Reptilia	Squamata	Eublepharidae	
+GCF_023053635.1	Elgaria multicarinata	Emul	Chromosome	99,30%	chicken	Vertebrata	Reptilia	Squamata	Anguidae	
+GCF_007399415.2	Gopherus evgoodei	Gevg	Chromosome	97,80%	chicken	Vertebrata	Reptilia	Testudines		
+GCF_004329235.1	Podarcis muralis	Pmur	Chromosome	90,00%	chicken	Vertebrata	Reptilia	Squamata	Lacertidae	
+GCA_035046505.1	Tiliqua scincoides	Tsci	Chromosome	93,90%	chicken	Vertebrata	Reptilia	Squamata	Scincidae	
+GCF_900496995.4	Aquila chrysaetos	Achr	Chromosome	93,50%	chicken	Vertebrata	Aves	Neognathae	Accipitridae	
+GCF_028858705.1	Grus americana	Game	Chromosome	95,50%	chicken	Vertebrata	Aves	Neognathae	Gruiformes	
+GCF_016699485.2	Gallus gallus	Ggal	Chromosome	92,50%	chicken	Vertebrata	Aves	Neognathae	Galliformes	
+GCF_015476345.1	Anas platyrhynchos	Apla	Chromosome	89,80%	chicken	Vertebrata	Aves	Neognathae	Anseriformes	
+GCF_003957565.2	Taeniopygia guttata	Tgut	Chromosome	95,20%	chicken	Vertebrata	Aves	Neognathae	Passeriformes	
+GCF_028389875.1	Rhea pennata	Rpen	Chromosome	94,60%	chicken	Vertebrata	Aves	Paleognathae		
+GCF_015852505.1	Tachyglossus aculeatus	Tacu	Chromosome	97,30%	human	Vertebrata	Mammalia	Prototheria		
+GCF_004115215.2	Ornithorhynchus anatinus	Oana	Chromosome	96,10%	human	Vertebrata	Mammalia	Prototheria		
+GCF_016432865.1	Antechinus flavipes	Afla	Chromosome	96,80%	human	Vertebrata	Mammalia	Metatheria		
+GCF_902635505.1	Sarcophilus harrisii	Shar	Chromosome	98,20%	human	Vertebrata	Mammalia	Metatheria		
+GCA_031878705.1	Tapirus indicus	Tind	Chromosome	98,20%	human	Vertebrata	Mammalia	Eutheria	Perissodactyla	Tapiridae
+GCF_000001405.40	Homo sapiens	Hsap	Chromosome	99,00%	human	Vertebrata	Mammalia	Eutheria	Primates	
+GCF_000001635.27	Mus musculus	Mmus	Chromosome	99,10%	human	Vertebrata	Mammalia	Eutheria	Rodentia	
+GCF_000003025.6	Sus scrofa	Sscr	Chromosome	98,50%	human	Vertebrata	Mammalia	Eutheria	Artiodactyla	Suidae
+GCF_000334495.1	Tupaia chinensis	Tchi	Chromosome	98,20%	human	Vertebrata	Mammalia	Eutheria	Euarchonta	Scadentia
+GCF_002863925.1	Equus caballus	Ecab	Chromosome	98,50%	human	Vertebrata	Mammalia	Eutheria	Perissodactyla	Equidae
+GCF_003254725.2	Canis lupus	Clup	Chromosome	98,80%	human	Vertebrata	Mammalia	Eutheria	Carnivora	
+GCF_011100555.1	Callithrix jacchus	Cjac	Chromosome	98,80%	human	Vertebrata	Mammalia	Eutheria	Primates	Cebidae
+GCF_015220235.1	Choloepus didactylus	Cdid	Chromosome	98,80%	human	Vertebrata	Mammalia	Eutheria	Xenarthra	
+GCF_018350195.1	Panthera tigris	Ptig	Chromosome	98,80%	human	Vertebrata	Mammalia	Eutheria	Carnivora	
+GCF_020740605.2	Lemur catta	Lcat	Chromosome	98,70%	human	Vertebrata	Mammalia	Eutheria	Primates	Strepsirrini
+GCF_020826845.1	Diceros bicornis	Dbic	Chromosome	99,20%	human	Vertebrata	Mammalia	Eutheria	Perissodactyla	Rhinocerotidae
+GCF_027406575.1	Nycticebus coucang	Ncou	Chromosome	99,00%	human	Vertebrata	Mammalia	Eutheria	Primates	Lorisidae
+GCF_027409185.1	Cynocephalus volans	Cvol	Chromosome	99,10%	human	Vertebrata	Mammalia	Eutheria	Euarchonta	Dermoptera
+GCF_027574615.1	Eptesicus fuscus	Efus	Chromosome	99,00%	human	Vertebrata	Mammalia	Eutheria	Chiroptera	
+GCF_027595985.1	Sorex araneus	Sara	Chromosome	98,70%	human	Vertebrata	Mammalia	Eutheria	Eulipothyphla	
+GCF_028564815.1	Eubalena glacialis	Egla	Chromosome	98,50%	human	Vertebrata	Mammalia	Eutheria	Artiodactyla	Mistyceti
+GCF_028885625.2	Pongo pygmaeus	Ppyg	Compelte genome	98,70%	human	Vertebrata	Mammalia	Eutheria	Primates	
+GCF_037993035.1	Macaca fascicularis	Mfas	Chromosome	98,40%	human	Vertebrata	Mammalia	Eutheria	Primates	Cercopithecidae
+GCF_910594005.1	Cervus elaphus	Cela	Chromosome	98,90%	human	Vertebrata	Mammalia	Eutheria	Artiodactyla	Cervidae
+GCF_937001465.1	Orcinus orca	Oorc	Chromosome	98,30%	human	Vertebrata	Mammalia	Eutheria	Artiodactyla	Odotoceti
