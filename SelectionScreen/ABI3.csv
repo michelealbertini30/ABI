@@ -1,0 +1,6 @@
+FILE,TEST,SELECTED,BRANCHES
+absrel.out,aBSREL,7,"g503_Mcep, Node37, Node46, Node47, Node7, g527_Aang, Node40"
+busted.out,BUSTED,NS (p=0.0938),-
+fubar.out,FUBAR,0,-
+meme.out,MEME,51,-
+slac.out,SLAC,(NegSel) 244/1782=0.137 (PosSel) 0/1782=0.000,-

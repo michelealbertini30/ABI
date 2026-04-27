@@ -1,0 +1,6 @@
+FILE,TEST,SELECTED,BRANCHES
+absrel.out,aBSREL,1,g759_Arut
+busted.out,BUSTED,NS (p=0.5),-
+fubar.out,FUBAR,0,-
+meme.out,MEME,15,-
+slac.out,SLAC,(NegSel) 434/1403=0.309 (PosSel) 0/1403=0.000,-

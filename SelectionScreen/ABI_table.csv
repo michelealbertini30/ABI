@@ -1,0 +1,6 @@
+test;ABI1;ABI2;ABI3
+aBSREL;3 branch(es);1 branch(es);7 branch(es)
+BUSTED;(DivSel) 0.936% of sites;NS (p=0.5);NS (p=0.0938)
+FUBAR;0;0;0
+MEME;31;15;51
+SLAC;"NegSel = 0.259; PosSel = 0";"NegSel = 0.309; PosSel = 0";"NegSel = 0.137; PosSel = 0"

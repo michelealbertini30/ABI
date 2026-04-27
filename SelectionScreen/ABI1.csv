@@ -1,0 +1,6 @@
+FILE,TEST,SELECTED,BRANCHES
+absrel.out,aBSREL,3,"g224_Ppec, g298_Hper, g155_Eata"
+busted.out,BUSTED,(DivSel) 0.936% of sites,-
+fubar.out,FUBAR,0,-
+meme.out,MEME,31,-
+slac.out,SLAC,(NegSel) 417/1611=0.259 (PosSel) 0/1611=0.000,-
