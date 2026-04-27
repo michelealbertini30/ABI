@@ -1,6 +1,0 @@
-Run:
-  Threads: 8
-  Expansion: 300
-
-Scripts:
-  getAnnoFasta: "/DATABIG/michelealbertini/ABI/Scripts/getAnnoFasta.pl"
