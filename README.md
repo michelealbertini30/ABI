@@ -20,29 +20,71 @@ Genome selection was done considering all Metazoans refseq-genomes with chromoso
 All Metazoans Genomes selected were used to build the [genome dataset](https://github.com/michelealbertini30/ABI/blob/main/refSeq/ABI_Assembly_accession.tsv). All genomes were downloaded from [NCBI](https://www.ncbi.nlm.nih.gov/) using the following script:
 
 ```
-mkdir Genomes
-while read line;
-        do
+#!/bin/bash
 
-        if echo $line | grep -qv "#";
-                then
+input_file=$1
 
-                ref=$(echo $line | awk '{print $1}')
-                ids=$(echo $line | awk '{print $2}')
+if [ ! -f "$input_file" ]; then
+    echo "Input file not found: $input_file"
+    exit 1
+fi
 
-                datasets download genome accession $rf --include genome --dehydrated --filename $rf.zip
+mkdir -p Genomes
 
-                unzip $rf -d $rf
-		datasets rehydrate --directory $rf
+echo "Step 1: Parsing accessions..."
 
-                cp $ref/ncbi_dataset/data/$ref/*.fna Genomes/$ids.fna
-        fi
+accessions=$(awk '!/^#/ {print $1}' "$input_file")
 
-done < refseq_genomes.tsv
+echo "Step 2: Downloading dehydrated genomes..."
+
+for rf in $accessions; do
+    echo "Downloading $rf ..."
+    datasets download genome accession "$rf" \
+        --include genome \
+        --dehydrated \
+        --filename "$rf.zip"
+done
+
+echo "Step 3: Unzipping and rehydrating..."
+
+for rf in $accessions; do
+    if [ -f "$rf.zip" ]; then
+        unzip -o "$rf.zip" -d "$rf"
+
+        echo "Rehydrating $rf ..."
+        datasets rehydrate --directory "$rf"
+
+        rm -f "$rf.zip"
+    else
+        echo "Warning: $rf.zip not found, skipping"
+    fi
+done
+
+echo "Step 4: Extracting FASTA genomes..."
+
+while read -r line; do
+    [[ "$line" =~ ^# ]] && continue
+    [[ -z "$line" ]] && continue
+
+    ref=$(echo "$line" | awk '{print $1}')
+    ids=$(echo "$line" | awk '{print $2}')
+
+    fasta_file=$(find "$ref" -path "*ncbi_dataset/data/$ref/*.fna" 2>/dev/null | head -n 1)
+
+    if [ -f "$fasta_file" ]; then
+        cp "$fasta_file" "Genomes/${ids}.fna"
+        echo "Copied ${ids}.fna"
+    else
+        echo "Warning: no .fna found for $ref"
+    fi
+
+done < "$input_file"
+
+echo "Done."
 ```
 
 ## <a name="protein"></a> Protein dataset
-Next, a [protein database](https://github.com/michelealbertini30/ABI/blob/main/Proteins/ABI.all_proteins.faa) was created from [UniProt](https://www.uniprot.org/) with all the annotated ABI genes in Metazoans. All downloaded proteins were filtered by domain:
+Next, a [protein database](https://github.com/michelealbertini30/ABI/blob/main/GenomeData/ABI.all_proteins.fa.gz) was created from [UniProt](https://www.uniprot.org/) with all the annotated ABI genes in Metazoans. All downloaded proteins were filtered by domain:
 ```
 ../interproscan-5.65-97.0/interproscan.sh -i UniProt_ABI.raw.fa -f tsv -b ABI.tsv
 
@@ -91,6 +133,9 @@ Database that integrates predictive information about protein function, gene fam
 * [Modeltest-ng](https://github.com/ddarriba/modeltest)\
 Tool for selecting the best-fit model of DNA or Protein evolution.
 
+* [IQTREE2](https://github.com/iqtree/iqtree2)\
+Efficient and versatile phylogenomic software by maximum likelihood.
+
 * [RAxML-ng](https://github.com/amkozlov/raxml-ng)\
 Phylogenetic tree inference tool which uses a Maximum Likelihood optimality criterion.
 
@@ -102,8 +147,8 @@ Throught the entire project we chose to use [Snakemake](https://snakemake.github
 
 To setup snakemake:
 ```
-conda create -n snake-env
-conda activate snake-env
+mamba create -n snake-env
+mamba activate snake-env
 mamba install -c bioconda snakemake
 ```
 To run a snakefile:
